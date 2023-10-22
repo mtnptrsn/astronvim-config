@@ -44,6 +44,10 @@ return {
       "<cmd>ChatGPT<cr>",
       desc = "ChatGPT",
     },
+
+    ["<leader>lp"] = {
+      "<cmd>lua vim.lsp.buf.hover()<cr>",
+    },
   },
   t = {
     -- setting a mapping to false will disable it
