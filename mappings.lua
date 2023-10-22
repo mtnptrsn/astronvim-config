@@ -32,6 +32,18 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ["<Tab>"] = { "<cmd>bnext<cr>" },
+    ["<S-Tab>"] = { "<cmd>bprev<cr>" },
+
+    ["<leader>gg"] = {
+      "<cmd>Git<cr><C-w><C-o>",
+      desc = "Vim Fugitive",
+    },
+
+    ["<leader>?"] = {
+      "<cmd>ChatGPT<cr>",
+      desc = "ChatGPT",
+    },
   },
   t = {
     -- setting a mapping to false will disable it
