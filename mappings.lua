@@ -48,6 +48,16 @@ return {
     ["<leader>lp"] = {
       "<cmd>lua vim.lsp.buf.hover()<cr>",
     },
+
+    ["]c"] = {
+      "<cmd>Gitsigns next_hunk<cr>",
+      desc = "Next git hunk",
+    },
+
+    ["[c"] = {
+      "<cmd>Gitsigns prev_hunk<cr>",
+      desc = "Previous git hunk",
+    },
   },
   t = {
     -- setting a mapping to false will disable it
