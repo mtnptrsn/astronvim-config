@@ -22,6 +22,7 @@ return {
         "prettier",
         "stylua",
         "eslint",
+        "rust-analyzer",
       })
     end,
   },

@@ -48,6 +48,9 @@ return {
     ["<leader>lp"] = {
       "<cmd>lua vim.lsp.buf.hover()<cr>",
     },
+    ["gp"] = {
+      "<cmd>lua vim.lsp.buf.hover()<cr>",
+    },
 
     ["]c"] = {
       "<cmd>Gitsigns next_hunk<cr>",
@@ -58,6 +61,23 @@ return {
       "<cmd>Gitsigns prev_hunk<cr>",
       desc = "Previous git hunk",
     },
+
+    ["<leader>ojj"] = {
+      "<cmd>Neorg journal today<cr>",
+    },
+    ["<leader>ojn"] = {
+      "<cmd>Neorg journal tomorrow<cr>",
+    },
+    ["<leader>ojt"] = {
+      "<cmd>Neorg journal toc open<cr>",
+    },
+    ["<leader>oo"] = {
+      "<cmd>Neorg index<cr>",
+    },
+    ["<leader>or"] = {
+      "<cmd>Neorg return<cr>",
+    },
+    ["<leader>o"] = false,
   },
   t = {
     -- setting a mapping to false will disable it

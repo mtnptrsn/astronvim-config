@@ -14,6 +14,7 @@ return {
       "rust",
       "tsx",
       "typescript",
+      "norg",
     })
   end,
 }
